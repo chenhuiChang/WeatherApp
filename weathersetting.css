@@ -1,0 +1,43 @@
+.background{
+  background-color:#000;
+}
+.title_set{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size:55px;
+  color:#FFF;
+}
+#location{
+  font-size:24px;
+  color:#FFF;
+}
+.tempera{
+  font-size:28px;
+  color:#FFF;
+}
+.tempera p{
+  display: inline;
+}
+#unit{
+  cursor:pointer;
+  color:#00D;
+}
+#unit:active{
+  color:#FFF;
+}
+#unit:hover{
+  color:#0066cc;
+}
+#weather{
+  color:white;
+  font-size:24px;
+}
+#weather_discription{
+  display:inline;
+}
+#author_name{
+  color:#666;
+  position:fixed;
+  bottom: 0px;
+  left:40%;
+}

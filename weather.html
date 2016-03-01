@@ -1,0 +1,39 @@
+<title>
+    Weather App
+</title>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script  src="weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="weathersetting.css">
+    <script  src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+</head>
+
+<body class="background" onload="initCoords()">
+    <section id="title">
+        <p class="title_set">Weather App</p>
+    </section>
+    <section id="content">
+        <br>
+        <div id="location" class="text-center">
+            <p>location text</p>
+        </div>
+        <br>
+        <div class="tempera text-center">
+            <p id="temperature">100</p>
+            <p> &deg;<em id="unit" onClick="changeUnit()">C</em></a>
+            </p>
+        </div>
+        <div id="weather" class="text-center">
+            <p id="weather_discription"></p>
+            <img id="weather_icon" src="" width="90px" />
+        </div>
+    </section>
+    <section id="author">
+        <div id="author_name" class="">
+            <p>Author:Chen-Hui Chang &plus; API: <a href="http://openweathermap.org/" target="_blank">Open Weather API</a>.</p>
+        </div>
+    </section>
+</body>
