@@ -5,7 +5,7 @@ function initCoords() {
       xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat="
             +position.coords.latitude.toFixed(2)+"&lon="
             +position.coords.longitude.toFixed(2)+
-           "&appid=44db6a862fba0b067b1930da0d769e98", false);
+           "&appid=16ebfe21d57ce05e33a7c9a32a54c4a3", false);
       xhr.send();
       update_HTML(xhr.response);
     }
